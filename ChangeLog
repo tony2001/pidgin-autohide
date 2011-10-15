@@ -1,0 +1,18 @@
+2007-10-17 23:18  babyface
+
+	* pidgin-osd 0.1.0 release
+
+2007-10-17 23:18  babyface
+
+	* AUTHORS, COPYING, FAQ, INSTALL, Makefile.am, NEWS, README,
+	  THANKS, TODO, autogen.sh, configure.ac, src, src/Makefile.am,
+	  src/pidgin-osd.c: initial checkin
+
+2007-10-17 23:18  babyface
+
+	* created tags directory
+
+2007-10-17 23:18  babyface
+
+	* created trunk directory
+
