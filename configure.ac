@@ -36,10 +36,10 @@ PKG_CHECK_MODULES(GLIB, [glib-2.0], HAVE_GLIB="yes", HAVE_GLIB="no")
 AC_SUBST(GLIB_CFLAGS)
 AC_SUBST(GLIB_LDFLAGS)
 
-AC_PROG_INTLTOOL                                                                                                                                             
+AC_PROG_INTLTOOL
 GETTEXT_PACKAGE=pidgin-autohide
-AC_SUBST(GETTEXT_PACKAGE)                                                                                                                                    
-ALL_LINGUAS="es fr it nl pl pt pt_BR sl hu zh_CN ro gl ru bg de sv"                                                                                          
+AC_SUBST(GETTEXT_PACKAGE)
+#ALL_LINGUAS="es fr it nl pl pt pt_BR sl hu zh_CN ro gl ru bg de sv"
 AM_GLIB_GNU_GETTEXT 
 
 # Checking for gtk.

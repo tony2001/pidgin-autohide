@@ -7,6 +7,6 @@ libdir			=	$(PIDGIN_LIBDIR)/pidgin
 lib_LTLIBRARIES		=	pidgin-autohide.la
 
 # The plugin sources.
-pidgin_autohide_la_SOURCES	=	pidgin-autohide.c
+pidgin_autohide_la_SOURCES	=	pidgin-autohide.c pidgin-autohide.h
 pidgin_autohide_la_CFLAGS	=	@PIDGIN_CFLAGS@
 pidgin_autohide_la_LDFLAGS	=	-module -avoid-version

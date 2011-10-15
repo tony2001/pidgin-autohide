@@ -4,7 +4,7 @@
 AUTOMAKE_OPTIONS = 1.6
 
 # Any directories which should be built and installed.
-SUBDIRS = src
+SUBDIRS = src po
 
 # The directories which are part of the distribution.
 DIST_SUBDIRS = $(SUBDIRS)
