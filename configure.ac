@@ -1,5 +1,5 @@
 # The autoconf initilization.
-AC_INIT(pidgin-autohide, 0.1.0, [andreas.bumen@dotnine.de], [pidgin-autohide])
+AC_INIT(pidgin-autohide, 0.3b, [andreas.bumen@dotnine.de], [pidgin-autohide])
 
 # Detect the canonical host and target build environment
 AC_CANONICAL_SYSTEM
@@ -53,4 +53,5 @@ AC_SUBST(GTK_LDFLAGS)
 AC_OUTPUT([
 Makefile
 src/Makefile
+po/Makefile.in
 ])
